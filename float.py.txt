@@ -1,0 +1,8 @@
+list1=[]
+number=int(input("Enter the list length"))
+print("Enter number")
+for i in range(number):
+
+    data=float(input())
+    list1.append(data)
+print(list1)
