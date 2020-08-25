@@ -21,5 +21,16 @@ if(temp==b):            #if loop is used to compare the temp and the result(b)
     print("The number is palindrome")
 else:
     print("The number is not palindrome")
+   
+
+#second method for palindrom using functions
+s = input("Enter your word:")
+def isPalindrome(s): 
+    return s == s[::-1] #[::-1] is used for reversing the string. Here we check if the string and reverse of string are same or not
+ans = isPalindrome(s)   #here we are storing the return function in the variable
+if ans: 
+    print("Yes it is a plaindrome") 
+else: 
+    print("No it is not a plaindrome") 
 
     
